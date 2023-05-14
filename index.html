@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap"
+			rel="stylesheet" />
+		<link rel="stylesheet" href="./assets/style.css" />
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>S P L I T T E R</title>
+	</head>
+	<body>
+		<main>
+			<header>
+				<img
+					src="./assets/img/splitter.svg"
+					alt="SPLITTER Logo em Texto" />
+			</header>
+			<section>
+				<div id="container">
+					<div id="form">
+						<div id="bill">
+							<p>Bill</p>
+							<input type="text" name="bill" id="bill-input" />
+						</div>
+						<div id="tip">
+							<div><p class="tip-p">Select Tip %</p></div>
+							<div id="percents">
+								<div class="percentage">
+									<p>5%</p>
+								</div>
+								<div class="percentage">
+									<p>10%</p>
+								</div>
+								<div class="percentage">
+									<p>15%</p>
+								</div>
+								<div class="percentage">
+									<p>25%</p>
+								</div>
+								<div class="percentage">
+									<p>50%</p>
+								</div>
+								<input
+									type="text"
+									name="bill-percent"
+									id="bill-percent"
+									placeholder="Custom" />
+							</div>
+						</div>
+						<div id="people">
+							<div>
+								<p>Number of People</p>
+								<p class="zero">Can't be zero</p>
+							</div>
+							<input type="text" name="peoples" id="peoples" />
+						</div>
+					</div>
+					<div id="results">
+						<div>
+							<div id="tip-amount">
+								<div>
+									<p class="text-white">Tip Amount</p>
+									<p class="text-gray">/ person</p>
+								</div>
+								<div class="value">$0.00</div>
+							</div>
+							<div id="total">
+								<div>
+									<p class="text-white">Total</p>
+									<p class="text-gray">/ person</p>
+								</div>
+								<div class="value">$0.00</div>
+							</div>
+						</div>
+						<button id="reset-btn">RESET</button>
+					</div>
+				</div>
+			</section>
+		</main>
+		<script src="./assets/script.js"></script>
+	</body>
+</html>
